@@ -2,10 +2,10 @@
   "name": "password-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.js",
   "scripts": {
     "dev": "nodemon ./src/index.js",
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "build": "parcel build ./public/main.html --dist-dir build"
   },
   "author": "",
   "license": "ISC",
