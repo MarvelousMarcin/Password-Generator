@@ -4,8 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "nodemon ./src/index.js",
-    "start": "node ./src/index.js",
-    "build": "parcel build ./public/main.html --dist-dir build"
+    "start": "node ./src/index.js"
   },
   "author": "",
   "license": "ISC",
