@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 const port = process.env.PORT | 3000;
-const publicDir = "./public/";
+const publicDir = "./build/";
 
 app.use(express.static(publicDir));
 app.set("view engine", "html");

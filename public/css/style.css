@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+main {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.leng {
+  font-size: 1.3rem;
+  width: 4.2rem;
+  padding: 0.3rem;
+  border: none;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 40vh;
+  font-size: 1.7rem;
+}
+
+.check {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+label {
+  margin-right: 4rem;
+}
+
+.btn {
+  font-size: 2.2rem;
+  padding: 0.2rem;
+  font-weight: 800;
+  transition: all 0.5s ease;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.btn:hover::after {
+  width: 10rem;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  background: black;
+  width: 0rem;
+  height: 10px;
+  bottom: -10px;
+  transition: all 0.5s ease;
+  left: 0;
+}
+
+.generated--password {
+  font-size: 2.2rem;
+}
